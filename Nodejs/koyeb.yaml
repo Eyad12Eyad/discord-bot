@@ -1,0 +1,6 @@
+name: discord-bot
+runtime: python
+build:
+  command: pip install -r requirements.txt
+run:
+  command: python main.py

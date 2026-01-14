@@ -1,0 +1,29 @@
+{
+  "name": "tiktok-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for TikTok live notifications on Replit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Bot is ready for Replit\" && exit 0"
+  },
+  "keywords": [
+    "tiktok",
+    "discord",
+    "bot",
+    "live",
+    "notifications",
+    "replit"
+  ],
+  "author": "Eyad Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.12.0",
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
